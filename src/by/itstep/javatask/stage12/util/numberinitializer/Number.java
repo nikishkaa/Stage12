@@ -13,6 +13,7 @@ public class Number {
 
     public static int getInitializeNumber() {
         Printer.print("Enter your number: ");
+
         return SCANNER.nextInt();
     }
 }
