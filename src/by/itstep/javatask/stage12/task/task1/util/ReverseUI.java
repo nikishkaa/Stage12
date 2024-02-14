@@ -1,9 +1,15 @@
 package by.itstep.javatask.stage12.task.task1.util;
 
 public class ReverseUI {
-    public static String getReverseNumberUI(int reverseNumber) {
+    public static StringBuilder BUILDER;
 
-        return "Your reversed number is: " + reverseNumber;
+    static {
+        BUILDER = new StringBuilder();
+    }
+
+    public static StringBuilder getReverseNumberUI(int reverseNumber) {
+
+        return BUILDER.append("Your reversed number is: ").append(reverseNumber);
     }
 
 }
