@@ -31,6 +31,7 @@ public class ArmstrongLogic {
 
     private static boolean isArmstrongNumber(int number, int numDigits) {
         int sum = 0, originalNumber = number;
+
         while (number > 0) {
             int digit = number % 10;
             sum += (int) Math.pow(digit, numDigits);
