@@ -11,6 +11,7 @@ public class Main {
         int countOfHappyTickets = TicketLogic.getCountAllHappyTickets(countOfDigit);
 
 
+
         System.out.println(countOfHappyTickets);
 
     }
