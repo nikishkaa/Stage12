@@ -30,7 +30,8 @@ public class ArmstrongLogic {
 
 
     private static boolean isArmstrongNumber(int number, int numDigits) {
-        int sum = 0, originalNumber = number;
+        int sum = 0;
+        int originalNumber = number;
 
         while (number > 0) {
             int digit = number % 10;
