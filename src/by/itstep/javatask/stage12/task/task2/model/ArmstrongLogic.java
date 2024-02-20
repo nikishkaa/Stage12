@@ -1,10 +1,13 @@
 package by.itstep.javatask.stage12.task.task2.model;
 
 public class ArmstrongLogic {
+    public static final int MIN_ARMSTRONG = 3;
+
+    public static final int MAX_ARMSTRONG = 5;
 
     public static int[] getArmstrongNumber(int number) {
 
-        if (number < 3 || number > 5) {
+        if (number < MIN_ARMSTRONG || number > MAX_ARMSTRONG) {
             return new int[]{};
         }
 
